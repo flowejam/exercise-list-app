@@ -1,0 +1,108 @@
+body {
+        font-family: Consolas, monospace;
+        color: #FF1493;
+        background-color: #36393e;
+  	padding: 3px;
+  	margin: 5px;
+}
+
+input {
+        font-family: Consolas, monospace;
+}
+
+button {
+        font-family: Consolas, monospace;
+}
+
+a:link {
+        color: #f1cbff;
+}
+
+a:hover {
+        color: #c9c9ff;
+}
+
+.not_visible {
+  display: none;
+}
+
+.color-icon:hover {
+  color: #6ae64f;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #6ae64f;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  padding: 8px;
+}
+
+tr th {
+  padding: 10px;
+  background-color: #708090;
+  color: #232b2b;
+	 border: 1px solid;
+ }
+
+tr td {
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid;
+	 border-color: #0e1111;
+	color: #d896ff;
+background-color: #800080;}
+
+ /*Student note: I'm aware these are not needed - I put them in before 
+  * I saw the tr td requirements */
+tr:nth-child(even){
+	 border: 2.5px solid;
+	color: #d896ff;
+background-color: #800080;}
+
+tr:nth-child(odd){
+
+	 border: 2.5px solid;
+	color: #d896ff;
+background-color: #660066;}
+
+
+
+
+tr:hover {background-color: #d896ff;
+	 color: #660066;
+	 border: 2.5px solid;
+	 border-color: #6ae64f;
+	}
+
+td:hover {
+	 border: 1.5px solid;
+	 border-color: #6ae64f;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #708090;
+  color: #232b2b;
+}
+
+table {
+	background-color: #0e1111;
+}
